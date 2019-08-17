@@ -7,6 +7,9 @@ a {
     font-size: 20px;
 }
     
+p {
+    font-size: 20px;
+}
     
 .nav-item:hover {
     background-color: hotpink;
@@ -21,6 +24,12 @@ a {
 
 h1 {
     color: hotpink;
+}
+
+h2 {
+    color: hotpink;
+    padding: 20px;
+    margin-bottom: -75px;
 }
 
 .jumbotron h1 {
@@ -66,7 +75,7 @@ img {
     object-fit: cover;
     max-width: 100%;
     padding: 10px;
-
+   
 }
 
 #me {
