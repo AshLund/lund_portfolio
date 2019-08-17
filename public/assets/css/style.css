@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+}
+    
+    
+.nav-item:hover {
+    background-color: hotpink;
+    cursor: arrow;
+    color: white !important;
+}
+
+.navbar-brand {
+    color: hotpink !important;
+    font-size: 28px;
+}
+
+h1 {
+    color: hotpink;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+hr {
+    border-color: grey;
+}
+
+.jumbotron {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.jumbotron p {
+    color: hotpink;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: hotpink;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#resumebtn {
+    margin-left: 20px;
+}
+
+#gitbtn {
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    padding: 10px;
+
+}
+
+#me {
+    border-color: hotpink;
+    border-style: solid;
+}
