@@ -1,9 +1,9 @@
 body {
-    background-color: black;
+    background-color: #000000;
 }
 
 a {
-    color: black;
+    color: #000000;
     font-size: 20px;
 }
     
@@ -12,24 +12,26 @@ p {
 }
     
 .nav-item:hover {
-    background-color: hotpink;
+    background-color: 	#FF1493;
     cursor: arrow;
-    color: white !important;
+    color: #ffffff !important;
 }
 
 .navbar-brand {
-    color: hotpink !important;
+    color: 	#FF1493 !important;
     font-size: 28px;
 }
 
 h1 {
-    color: hotpink;
+    color: 	#FF1493;
 }
 
 h2 {
-    color: hotpink;
-    padding: 20px;
-    margin-bottom: -75px;
+    color: 	#FF1493;
+    margin-bottom: 0;
+    margin-top: 2%;
+
+  
 }
 
 .jumbotron h1 {
@@ -41,18 +43,18 @@ hr {
 }
 
 .jumbotron {
-    background-color: black;
+    background-color: #000000;
     padding-top: 100px;
 }
 
 .jumbotron p {
-    color: hotpink;
+    color: 	#FF1493;
     font-size: 20px;
 }
 
 .btn {
-    background-color: hotpink;
-    color: white;
+    background-color: 	#FF1493;
+    color: #ffffff;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -67,8 +69,7 @@ hr {
 }
 
 .container {
-    margin-top: 50px;
-    padding: 50px;
+    padding: 20px;
 }
 
 img {
@@ -79,6 +80,6 @@ img {
 }
 
 #me {
-    border-color: hotpink;
+    border-color: 	#FF1493;
     border-style: solid;
 }
