@@ -39,7 +39,7 @@ h2 {
 }
 
 hr {
-    border-color: grey;
+    border-color: #D3D3D3;
 }
 
 .jumbotron {
@@ -50,6 +50,21 @@ hr {
 .jumbotron p {
     color: 	#FF1493;
     font-size: 20px;
+}
+
+.screenshot_header {
+    color: #FF1493;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+ 
+}
+
+.spotlight_header {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .btn {
@@ -69,13 +84,29 @@ hr {
 }
 
 .container {
-    padding: 25px;
+    padding: 2%;
+    max-width: 1024px;
 }
 
 img {
     width: 100%;
-    padding: 2%;
+    padding: 3%;
+
    
+}
+
+.border_white {
+    border: 2px solid #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.spotlight_size {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0;
 }
 
 #me {
