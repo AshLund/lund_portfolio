@@ -34,43 +34,65 @@
         <h2 align="center"> Portfolio </h2>
         <div class="container">
             <h4 class="screenshot_header"> Screenshots from projects at Kohls.com </h4>
-            <!-- <div class="row">
-                <div class="col-sm-6 spotlight_header">
-                  Intimates Spotlight
-                </div>
-                <div class="col-sm-6 spotlight_header">
-                    Skincare Spotlight
-                  </div>
-              </div> -->
             <div class="row">
-             
-           
               <div class="col-sm-3"> 
                 <p class="spotlight_header"> Intimates Spotlight</p>
-                <img class="border_white"src="assets/images/womens_intimates_dt.PNG">
+                <img id="womens_intimates_dt" class="border_white"src="assets/images/womens_intimates_dt.PNG">
+                <div id="womens_intimates_dt__modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                  </div>
                 <p class="spotlight_size"> Desktop</p>
-                <img class="border_white"src="assets/images/womens_intimates_mb.jpg">
+                <img id="womens_intimates_mb" class="border_white"src="assets/images/womens_intimates_mb.jpg">
+                <div id="womens_intimates_mb__modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img02">
+                  </div>
                 <p class="spotlight_size"> Mobile</p>
               </div>
                 <div class="col-sm-3"> 
                     <p class="spotlight_header"> Skincare Spotlight</p>
-                    <img src="assets/images/skincare_spotlight_dt.PNG">
+                    <img id="skincare_dt" class="border_white" src="assets/images/skincare_spotlight_dt.PNG">
+                    <div id="skincare_dt__modal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img03">
+                      </div>
                     <p class="spotlight_size"> Desktop</p>
-                    <img src="assets/images/skincare_mb.jpg">
+                    <img id="skincare_mb" class="border_white" src="assets/images/skincare_mb.jpg">
+                    <div id="skincare_mb__modal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img04">
+                      </div>
                     <p class="spotlight_size"> Mobile</p>
                   </div>
                   <div class="col-sm-3"> 
                       <p class="spotlight_header"> Women's Active Spotlight</p>
-                      <img class="border_white"src="assets/images/womens_active_dt.PNG">
+                      <img id="womens_active_dt" class="border_white"src="assets/images/womens_active_dt.PNG">
+                      <div id="womens_active_dt__modal" class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content" id="img05">
+                        </div>
                       <p class="spotlight_size"> Desktop</p>
-                      <img class="border_white" src="assets/images/womens_active_mb.jpg">
+                      <img id="womens_active_mb" class="border_white" src="assets/images/womens_active_mb.jpg">
+                      <div id="womens_active_mb__modal" class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content" id="img06">
+                        </div>
                       <p class="spotlight_size"> Mobile</p>
                     </div>
                       <div class="col-sm-3"> 
                           <p class="spotlight_header"> Boys Active Spotlight</p>
-                          <img class="border_white"src="assets/images/boys_active_dt.PNG">
+                          <img id="boys_active_dt" class="border_white"src="assets/images/boys_active_dt.PNG">
+                          <div id="boys_active_dt__modal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img07">
+                            </div>
                           <p class="spotlight_size"> Desktop</p>
-                          <img class="border_white" src="assets/images/boys_active_mb.jpg">
+                          <img id="boys_active_mb" class="border_white" src="assets/images/boys_active_mb.jpg">
+                          <div id="boys_active_mb__modal" class="modal">
+                              <span class="close">&times;</span>
+                              <img class="modal-content" id="img08">
+                            </div>
                           <p class="spotlight_size"> Mobile</p>
                         </div>
                
@@ -108,18 +130,16 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">
-                    A music app that lets users enter an artist or band and returns top vidoes, top tracks and trending giphs. Uses APIs, JQuery, and Bootstrap. 
-                  </h5>
+               
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                <a class="btn" href="https://ashlund.github.io/tunafy/" target="blank"> App </a>
-                
-                <a class="btn" href="https://github.com/AshLund/tunafy/" target="blank"> Github Repo </a>
-              </div>
+                  <img src="assets/images/tunafy.PNG">
+                <!-- <a class="btn" href="https://ashlund.github.io/tunafy/" target="blank"> App </a>               
+                <a class="btn" href="https://github.com/AshLund/tunafy/" target="blank"> Github Repo </a>  -->
+               </div>
               </div>
               </div>
             </div>
@@ -214,6 +234,105 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+  
+    var modal = document.getElementById("womens_intimates_dt__modal");
+    var img = document.getElementById("womens_intimates_dt");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("womens_intimates_mb__modal");
+    var img = document.getElementById("womens_intimates_mb");
+    var modalImg = document.getElementById("img02");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[1];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("skincare_dt__modal");
+    var img = document.getElementById("skincare_dt");
+    var modalImg = document.getElementById("img03");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[2];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("skincare_mb__modal");
+    var img = document.getElementById("skincare_mb");
+    var modalImg = document.getElementById("img04");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[3];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("womens_active_dt__modal");
+    var img = document.getElementById("womens_active_dt");
+    var modalImg = document.getElementById("img05");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[4];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("womens_active_mb__modal");
+    var img = document.getElementById("womens_active_mb");
+    var modalImg = document.getElementById("img06");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[5];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("boys_active_dt__modal");
+    var img = document.getElementById("boys_active_dt");
+    var modalImg = document.getElementById("img07");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[6];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+
+    var modal = document.getElementById("boys_active_mb__modal");
+    var img = document.getElementById("boys_active_mb");
+    var modalImg = document.getElementById("img08");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[7];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
 
 
 </body>
