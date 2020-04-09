@@ -54,7 +54,7 @@ hr {
 
 .screenshot_header {
     color: #FF1493;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     width: 100%;
  
@@ -65,6 +65,7 @@ hr {
     font-size: 18px;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 1%;
 }
 
 .btn {
@@ -161,4 +162,57 @@ img {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .project__bottom {
+      width: 100%;
+      background-color: #ffffff;
+      opacity: .8;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0;
+      margin-right: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      justify-content: center;
+
+
+  }
+
+  .project-desc {
+      color: #000000;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-decoration: underline;
+  }
+
+  .project-desc:hover {
+      text-decoration: none !important;
+  }
+
+  .projects__img {
+      padding: 0;
+  }
+
+  .project_href {
+      width: 50%;
+      text-decoration: none;
+  }
+
+  a {
+      text-decoration: none !important;
+      color: #000000;
+  }
+
+  .border_project {
+      border-right: 2px solid #000000;
+  }
+
+  .project_text {
+      color: #ffffff;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 3%;
   }
